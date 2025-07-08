@@ -24,8 +24,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="jp">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body>
+	  		<header>
+				<h3>This is WASM tools by Minerva_Juppiter</h3>
+				<h5>In case you find issue, please report me vir Github Issue.</h5>
+				<br/>
+				<a href="https://www.minervajuppiter.net/"><h4>About Me</h4></a>
+			</header>
+        	{children}
+			<footer>
+			<p>@all right reserved by minerva_juppiter</p>
+			</footer>
       </body>
     </html>
   );
