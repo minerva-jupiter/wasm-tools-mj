@@ -26,8 +26,9 @@ export default function RootLayout({
     <html lang="jp">
       <body>
 	  		<header>
-				<h3>This is WASM tools by Minerva_Juppiter</h3>
-				<h5>In case you find issue, please report me vir Github Issue.</h5>
+				<h1>This is WASM tools by Minerva_Juppiter</h1>
+				<br/>
+				<h3>In case you find issue, please report me vir Github Issue.</h3>
 				<br/>
 				<a href="https://www.minervajuppiter.net/"><h4>About Me</h4></a>
 			</header>
