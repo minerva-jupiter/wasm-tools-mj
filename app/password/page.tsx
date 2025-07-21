@@ -5,18 +5,18 @@ import React, { useState } from "react";
 
 export default function Password() {
 	const [numberIsChecked,setNumberIsChecked] = useState(false);
-	const handleNumberCheckboxChange = (event) => {
+	const handleNumberCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const checked = event.target.checked;
 		setNumberIsChecked(checked);
 	};
 
 	const [lowletterIsChecked,setLowletterIsChecked] = useState(false);
-	const handleLowletterCheckboxChange = (event) => {
+	const handleLowletterCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const checked = event.target.checked;
 		setLowletterIsChecked(checked);
 	};
 	const [capitalletterIsChecked,setCapitalletterIsChecked] = useState(false);
-	const handleCapitalletterCheckboxChange = (event) => {
+	const handleCapitalletterCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const checked = event.target.checked;
 		setCapitalletterIsChecked(checked);
 	};
