@@ -32,7 +32,9 @@ export default function RootLayout({
 				<br/>
 				<a href="https://www.minervajuppiter.net/"><h4>About Me</h4></a>
 			</header>
-        	{children}
+			<main>
+        		{children}
+			</main>
 			<footer>
 			<p>@all right reserved by minerva_juppiter</p>
 			</footer>
