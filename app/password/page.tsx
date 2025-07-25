@@ -1,14 +1,13 @@
 'use client'
-import init, { greet } from "../../wasm/pkg/wasm";
 import { useEffect, useState } from "react";
+
+function greet(username :string) {
+	alert("Hello " + username + " !!"); 
+}
 
 export default function Password() {
 
 	const [ username,setText ] = useState("");
-
-	useEffect(() => {
-		init();
-	}, []);
 
 	return (
 		<main>
