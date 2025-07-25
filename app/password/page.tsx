@@ -18,7 +18,7 @@ export default function Password() {
 			<input 
 				type="text" 
 				value={username}
-				onChange={() => setText(event.target.value)}
+				onChange={(event: React.ChangeEvent<HTMLInputElement>) => setText(event.target.value)}
 			/>
 			<button onClick={() => greet(username)}>greet</button>
 		</main>
